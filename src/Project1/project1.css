@@ -18,19 +18,19 @@ h4 {
   background-color: rgb(238, 236, 232);
   padding: 30px;
 }
-#btn-insta {
+.btn-insta {
   color: aliceblue;
   border-radius: 20px;
   background-color: rgb(189, 85, 6);
   border: solid 1px rgb(189, 85, 6);
   padding: 5px 15px;
 }
-#btn-email {
+.btn-email {
   border-radius: 20px;
   border: solid 1px rgb(189, 169, 134);
   padding: 5px 15px;
 }
-#note {
+.note {
   color: rgb(41, 160, 87);
 }
 p {
@@ -42,7 +42,7 @@ li {
   color: rgba(46, 37, 30, 0.822);
 }
 
-#emoji {
+.emoji {
   display: flex;
   justify-content: center;
   align-items: center;
