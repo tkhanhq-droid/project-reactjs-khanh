@@ -9,7 +9,7 @@ body {
   margin: auto;
   padding: 20px;
 }
-#box {
+.box {
   background-color: aliceblue;
   border: solid 2px rgb(48, 78, 48);
   border-radius: 10px;
@@ -18,4 +18,7 @@ body {
 }
 p {
   line-height: 1.5;
+}
+.color-link {
+  color: rgb(84, 116, 84);
 }
