@@ -47,8 +47,7 @@ export default function Project2() {
             ></textarea>
             <input
               type="checkbox"
-              className="form-check-input"
-              className="exampleCheck1"
+              className="form-check-input exampleCheck1 "
             />
             <label className="form-check-label" for="exampleCheck1">
               Sign me up for the weekly newsletter
