@@ -8,16 +8,16 @@ body {
   border-bottom: 1px solid rgb(121, 73, 28);
   padding: 12px 0;
 }
-.footer {
+.visit {
   border-top: 1px solid rgb(121, 73, 28);
 }
-.navar-brand {
+.navbar-brand {
   font-weight: bold;
 }
-#about {
+.about {
   padding: 80px 0 60px;
 }
 
-#about h1 {
+.about h1 {
   font-size: 48px;
 }
