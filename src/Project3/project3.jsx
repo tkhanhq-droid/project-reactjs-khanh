@@ -1,8 +1,8 @@
-import "./project3.css";
+import './project3.css';
 export default function Project3() {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div className="project3-page">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <a href="" className="navbar-brand">
             Sweet Crumbs
@@ -43,8 +43,8 @@ export default function Project3() {
                 a very early alarm clock.
               </p>
               <a href="#menu" className="btn btn-menu">
-                {" "}
-                See today's menu{" "}
+                {' '}
+                See today's menu{' '}
               </a>
             </div>
           </div>
@@ -102,6 +102,6 @@ export default function Project3() {
           <p className="m-0">© 2026 Sweet Crumbs Bakery</p>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
