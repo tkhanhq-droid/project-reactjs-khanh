@@ -1,7 +1,7 @@
-import "./project1.css";
+import './project1.css';
 export default function Project1() {
   return (
-    <>
+    <div className="project1-page">
       <div className="box">
         <div className="row">
           <div className="col-4">
@@ -31,6 +31,6 @@ export default function Project1() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
