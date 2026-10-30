@@ -1,7 +1,7 @@
-import "./project2.css";
+import './project2.css';
 export default function Project2() {
   return (
-    <>
+    <div className="project2-page">
       <div className="box">
         <div className="row">
           <div className="col-5 left">
@@ -18,8 +18,8 @@ export default function Project2() {
             <p>Email</p>
             <input type="text" placeholder="jamie@example.com" />
             <p>Pickup or delivery?</p>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Pickup</option>
+            <select className="form-select" aria-label="Default select example">
+              <option value="pickup">Pickup</option>
               <option value="1">One</option>
               <option value="2">Two</option>
             </select>
@@ -40,8 +40,7 @@ export default function Project2() {
             </label>
             <p>Notes (optional)</p>
             <textarea
-              class="form-control"
-              className="exampleTextarea"
+              className="form-control exampleTextarea"
               rows="3"
               placeholder="Any allergies or special requests?"
             ></textarea>
@@ -49,13 +48,13 @@ export default function Project2() {
               type="checkbox"
               className="form-check-input exampleCheck1 "
             />
-            <label className="form-check-label" for="exampleCheck1">
+            <label className="form-check-label" htmlFor="exampleCheck1">
               Sign me up for the weekly newsletter
             </label>
             <button type="button">Place order</button>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
