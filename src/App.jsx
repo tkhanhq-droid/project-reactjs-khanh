@@ -10,7 +10,26 @@ import './App.css';
 
 function App() {
   const [page, setPage] = useState(0);
-
+  let content;
+  switch (page) {
+    case 0:
+      content = <Practice1 />;
+      break;
+    case 1:
+      content = <Practice2 />;
+      break;
+    case 2:
+      content = <Project1 />;
+      break;
+    case 3:
+      content = <Project2 />;
+      break;
+    case 4:
+      content = <Project3 />;
+      break;
+    default:
+      content = <Practice1 />;
+  }
   return (
     <div className="app">
       <header className="header">
@@ -51,14 +70,7 @@ function App() {
           </button>
         </nav>
       </header>
-
-      <main className="page-content">
-        {page === 0 && <Practice1 />}
-        {page === 1 && <Practice2 />}
-        {page === 2 && <Project1 />}
-        {page === 3 && <Project2 />}
-        {page === 4 && <Project3 />}
-      </main>
+      <main className="page-content">{content}</main>
     </div>
   );
 }

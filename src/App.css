@@ -1,0 +1,62 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #172554;
+  padding: 18px 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.page-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.page-buttons button {
+  min-width: 115px;
+  padding: 13px 20px;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+
+  background-color: transparent;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.page-buttons button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.page-buttons button.active {
+  background-color: #3b82f6;
+}
+
+.page-content {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+}
+
+@media (max-width: 700px) {
+  .page-buttons {
+    flex-wrap: wrap;
+  }
+}
